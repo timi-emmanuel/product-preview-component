@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+ background-color:hsl(30, 38%, 92%) ;
+ color: hsl(228, 12%, 48%)
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  height: 440px;
+  margin-top: 100px;
+  flex-flow:row wrap;
+ 
+} 
+
+.wrapper .box{
+  height: 100%;
+  width: 280px;
+}
+ 
+.image-container{
+  background-image: url(/image-product-desktop.jpg);
+  background-size: cover;
+  border-radius:10px 0px 0px 10px;
+ 
+}
+
+.content_box{
+  padding: 10px;
+  border-radius:0px  10px 10px 0px;
+  background-color:hsl(0, 0%, 100%);
+}
+
+header{
+  margin: 20px;
+  font:normal 500 13px montserrat;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  
+}
+
+h1{
+  font:normal 700 30px fraunces;
+  padding: 0px 15px;
+  color: hsl(212, 21%, 14%)
+}
+
+article{
+  font:normal 500 14px montserrat;
+  padding: 6px 14px;
+  line-height: 1.5;
+  text-align: left;
+  }
+
+.figure-content{
+  display: flex;
+  align-items: center;
+  margin: -6px 0px ;
+  padding: 0px 12px;
+  gap: 1.5rem;
+  /* background-color: aqua; */
+}
+ 
+.big_font{
+  font:normal 700 30px fraunces;
+  color: hsl(158, 36%, 37%);
+}
+
+.small_font{
+  font:normal 500 14px montserrat;
+  text-decoration: line-through ;
+ }
+   
+ .cart-button{
+  font:normal 500 14px montserrat;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 0px auto;
+  width: 85%;
+ }
+
+ .cart-button:hover{
+  background-color: hsl(157, 37%, 21%);
+ }
+
+ footer{
+  font:normal 500 14px montserrat;
+  text-align: center;
+  margin-top: 70px;
+ } 
+
+ a{
+  text-decoration: none;
+  color: inherit;
+ }
+
+ /* Design for mobile devices width of 414px */
+ @media screen and (max-width: 414px){
+  .wrapper{
+    height: 350px;
+    margin-top: 30px;   
+  }
+  
+  .wrapper .box{
+    height: 100%;    
+    width: 90%;
+    
+  }
+  .image-container{
+    background-image: url(/image-product-mobile.jpg);
+    background-size: 100% 100%; 
+    border-radius:10px 10px 0px 0px;
+     
+  } 
+  .content_box{
+    padding: 0px 10px;
+    border-radius:0px 0px 10px 10px;
+  }
+    
+  h1{
+      padding: 0px 15px;
+      margin-top:-10px ;
+   }  
+
+  article{
+    margin-top:-15px ; 
+  }
+
+  .figure-content{
+    margin-top: -20px;
+ }
+  .cart-button{
+    margin: -8px auto;
+ }   
+    
+ footer{
+  margin-top: 400px;
+ }
+}
