@@ -99,8 +99,7 @@ article{
 
  a{
   text-decoration: none;
-  color: inherit;
- }
+  }
 
  /* Design for mobile devices width of 414px */
  @media screen and (max-width: 414px){
