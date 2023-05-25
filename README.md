@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/timi-emmanuel/product-preview-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [product-preview-component](https://github.com/timi-emmanuel/product-preview-component)
+- Live Site URL: [product-preview-component](https://product-preview-component-r793ndode-timi-emmanuel.vercel.app)
 
 ## My process
 
